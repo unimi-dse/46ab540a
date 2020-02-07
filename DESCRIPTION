@@ -1,0 +1,16 @@
+Package: IfamazonratingsReliable
+Type: Package
+Title: Detecting the fake Amazon rating based on buyer's reviews
+Version: 0.1.0
+Authors@R: person("QA", "Nguyen", email = "anhmilan@gmail.com",
+                  role = c("aut", "cre"))
+Maintainer: Nguyen QA <anhmilan@gmail.com>
+Description: This packge is used to check if average Amazon rating of each product is reliable. 
+    Reviews from buyers will be sentimental analysed using library "bing" by Bing Liu. 
+    If the number of negative words is greater than 40% of total sentimental words, the product got a BAD reviews and vice sera.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.1.0)
+Imports: rvest, tidytext, tidyverse,gsubfn, dplyr
+
