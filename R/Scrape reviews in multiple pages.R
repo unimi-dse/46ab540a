@@ -18,4 +18,4 @@ multiple_scrape <- function(product_code, page_range){
   return(output_list)
 }
 
-# multiple_scrape('B004I8VJ1Y',1:4)   # Indicate product you want to check, Scrape pages 1 to 4
+#multiple_scrape('B004I8VJ1Y',1:4)   # Indicate product you want to check, Scrape pages 1 to 4
