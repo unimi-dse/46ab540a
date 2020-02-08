@@ -6,12 +6,12 @@ multiple_scrape <- function(product_code, page_range){
 
     message("Getting page ",i, " of ",length(page_range), "; Actual: page ",j) # Progressing message
 
-    Sys.sleep(2) # Take a two-seconds break
+    Sys.sleep(1) # Take one second break
 
-    if((i %% 4) == 0){ # After every four scrapes... take another one second break
+    if((i %% 3) == 0){ # After every three scrapes... take another one second break
 
       message(".....be patient pls ^.^")
-      Sys.sleep(1) # Take an additional two second break
+      Sys.sleep(1)
     }
     scrape_reviews(product_code = product_code, page_num = j) # Scrape
   }) -> output_list
