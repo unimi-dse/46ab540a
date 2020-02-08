@@ -15,7 +15,7 @@ pending T.T
 
 ```bash
 # first install the R package "devtools" if not installed
-devtools::install_github('unimi-dse/01a62bb0')
+devtools::install_github('unimi-dse/46ab540a')
 ```
 
 ## Usage
