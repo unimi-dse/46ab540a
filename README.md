@@ -1,7 +1,7 @@
 ``work in progress..``
 ``
 ``
-`` comeback later :D``
+`` comeback later plz :D``
 
 # Check if Amazon rating is reliable
 
@@ -35,7 +35,9 @@ require(IfamazonratingsReliable)
 ```
 
 You also can apply this package for any products from [Amazon UK](https://www.amazon.co.uk)
-by finding its product code (i.e. ASIN) from HTML link.
+by finding its product code (i.e. [ASIN](https://www.datafeedwatch.com/blog/amazon-asin-number-what-is-it-and-how-do-you-get-it)) from HTML link.
+
+
 
 ## Function
 
@@ -51,8 +53,8 @@ scrape_reviews('B004I8VJ1Y',10)
 ```
 multiple_scrape(product_code,page_rage)
 
-# example
-multiple_scrape('B004I8VJ1Y',1:4)
+#example
+#multiple_scrape('B004I8VJ1Y',1:4)
 ```
 
 ```
