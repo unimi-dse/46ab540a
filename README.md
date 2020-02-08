@@ -6,10 +6,7 @@
 
 IfamazonratingsReliable is a package used for sentimentally analyzing reviews of UK Amazon products. Certain words from buyer's reviews will be assigned to either positive value or negative value using the Bing lexicon. If the number of negative words accounts for more than 40% of the total words, the product is considered as having got BAD reviews.
 
-``
-comparing to star rating is ....
-pending T.T
-``
+
 ## Installation
 
 ```bash
