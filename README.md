@@ -27,12 +27,12 @@ require(IfamazonratingsReliable)
 
 ## Find ASIN of products
 
-```
-# Some Amazon products codes that can be used for the following functions. 
-'B004I8VJ1Y'
-'B07C366Z4V'
-'B07Q41365C'
-```
+Some Amazon products codes that can be used for the following functions 
+
+``'B004I8VJ1Y'``
+``'B07C366Z4V'``
+``'B07Q41365C'``
+
 
 You also can apply this package for any products from [Amazon UK](https://www.amazon.co.uk)
 by finding its product code (i.e. [ASIN](https://www.datafeedwatch.com/blog/amazon-asin-number-what-is-it-and-how-do-you-get-it)) from HTML link.
@@ -41,28 +41,27 @@ by finding its product code (i.e. [ASIN](https://www.datafeedwatch.com/blog/amaz
 
 ## Function
 
-```
 
-scrape_reviews(product_code,page_num)
+```scrape_reviews(product_code,page_num)```
 
-# example
-scrape_reviews('B004I8VJ1Y',10)
-````
+E.g.
+``scrape_reviews('B004I8VJ1Y',10)``
 
 
-```
-multiple_scrape(product_code,page_rage)
 
-#example
-multiple_scrape('B004I8VJ1Y',1:4)
-```
 
-```
-GetSentiment(product_code,page_rage)
+```multiple_scrape(product_code,page_rage)```
 
-# example
-GetSentiment('B004I8VJ1Y',1:4)
+E.g.
+``multiple_scrape('B004I8VJ1Y',1:4)``
 
-``` 
+
+
+``` GetSentiment(product_code,page_rage) ```
+
+E.g.
+``GetSentiment('B004I8VJ1Y',1:4)``
+
+
 ## License
 ``GPL-3``
