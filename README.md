@@ -31,13 +31,13 @@ Some Amazon products codes that can be used for the following functions
 
 
 You also can apply this package for any products from [Amazon UK](https://www.amazon.co.uk)
-by finding its product code (i.e. [ASIN](https://www.datafeedwatch.com/blog/amazon-asin-number-what-is-it-and-how-do-you-get-it)) from HTML link.
+by finding its product code (i.e. [ASIN](https://www.datafeedwatch.com/blog/amazon-asin-number-what-is-it-and-how-do-you-get-it "See how to find ASIN of Amazon product")) from HTML link.
 
 
 
 ## Function
 
-* Function to extract data from one page
+#### Function to extract data from one page
 ```
 scrape_reviews(product_code,page_num)
 ```
@@ -47,7 +47,7 @@ scrape_reviews(product_code,page_num)
 
 
 
-* Function to extract data from multiple pages
+#### Function to extract data from multiple pages
   ```
   multiple_scrape(product_code,page_rage)
   ```
@@ -56,7 +56,7 @@ E.g.
 ``multiple_scrape('B004I8VJ1Y',1:4)``
 
 
-* Function to check if the product got positive reviews in general
+#### Function to check if the product got positive reviews in general
 ``` 
 GetSentiment(product_code,page_rage)
 ```
@@ -64,7 +64,7 @@ GetSentiment(product_code,page_rage)
 E.g.
 ``GetSentiment('B004I8VJ1Y',1:4)``
 
-* Function to visualyze top negative and positive words
+#### Function to visualyze top negative and positive words
 ``` 
 plotbing(product_code,page_rage)
 ```
