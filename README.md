@@ -1,7 +1,7 @@
 ``work in progress..``
 ``
 ``
-`` comeback later plz :D``
+`` comeback later plz :woman_technologist:``
 
 # Check if Amazon rating is reliable
 
@@ -41,7 +41,7 @@ by finding its product code (i.e. [ASIN](https://www.datafeedwatch.com/blog/amaz
 
 ## Function
 
-
+* Function to extract data from one page
 ```
 scrape_reviews(product_code,page_num)
 ```
@@ -51,16 +51,16 @@ E.g.
 
 
 
-
-```
-multiple_scrape(product_code,page_rage)
-```
+* Function to extract data from multiple pages
+  ```
+  multiple_scrape(product_code,page_rage)
+  ```
 
 E.g.
 ``multiple_scrape('B004I8VJ1Y',1:4)``
 
 
-
+* Function to check if the product got positive reviews in general
 ``` 
 GetSentiment(product_code,page_rage)
 ```
@@ -71,3 +71,6 @@ E.g.
 
 ## License
 ``GPL-3``
+## Language
+![](path/to/smallorb.png)
+
