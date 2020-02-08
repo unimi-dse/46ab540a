@@ -42,7 +42,9 @@ by finding its product code (i.e. [ASIN](https://www.datafeedwatch.com/blog/amaz
 ## Function
 
 
-```scrape_reviews(product_code,page_num)```
+```
+scrape_reviews(product_code,page_num)
+```
 
 E.g.
 ``scrape_reviews('B004I8VJ1Y',10)``
@@ -50,14 +52,18 @@ E.g.
 
 
 
-```multiple_scrape(product_code,page_rage)```
+```
+multiple_scrape(product_code,page_rage)
+```
 
 E.g.
 ``multiple_scrape('B004I8VJ1Y',1:4)``
 
 
 
-``` GetSentiment(product_code,page_rage) ```
+``` 
+GetSentiment(product_code,page_rage)
+```
 
 E.g.
 ``GetSentiment('B004I8VJ1Y',1:4)``
