@@ -28,7 +28,7 @@ require(IfamazonratingsReliable)
 ## Find ASIN of products
 
 ```
-# Amazon products codes that can be used for the following functions. 
+# Some Amazon products codes that can be used for the following functions. 
 'B004I8VJ1Y'
 'B07C366Z4V'
 'B07Q41365C'
@@ -54,7 +54,7 @@ scrape_reviews('B004I8VJ1Y',10)
 multiple_scrape(product_code,page_rage)
 
 #example
-#multiple_scrape('B004I8VJ1Y',1:4)
+multiple_scrape('B004I8VJ1Y',1:4)
 ```
 
 ```
