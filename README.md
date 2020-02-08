@@ -76,3 +76,4 @@ E.g.
 ## Language
 ![](path/to/smallorb.png)
 
+:sweat_smile:
