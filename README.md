@@ -1,7 +1,6 @@
 ``work in progress..``
-``
-``
-`` comeback later plz :woman_technologist:``
+`` ``
+`` comeback later plz ``:woman_technologist:
 
 # Check if Amazon rating is reliable
 
@@ -46,8 +45,8 @@ by finding its product code (i.e. [ASIN](https://www.datafeedwatch.com/blog/amaz
 scrape_reviews(product_code,page_num)
 ```
 
-E.g.
-``scrape_reviews('B004I8VJ1Y',10)``
+	 E.g.
+  	``scrape_reviews('B004I8VJ1Y',10)``
 
 
 
@@ -68,7 +67,13 @@ GetSentiment(product_code,page_rage)
 E.g.
 ``GetSentiment('B004I8VJ1Y',1:4)``
 
+* Function to visualyze top negative and positive words
+``` 
+plotbing(product_code,page_rage)
+```
 
+E.g.
+``plotbing('B004I8VJ1Y',1:10)``
 ## License
 ``GPL-3``
 ## Language
