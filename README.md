@@ -1,4 +1,4 @@
-# ``work in progress..``
+``work in progress..``
 ``
 ``
 `` comeback later :D``
@@ -28,7 +28,7 @@ require(IfamazonratingsReliable)
 ## Find ASIN of products
 
 ```
-#Amazon products codes that can be used for the following functions. 
+# Amazon products codes that can be used for the following functions. 
 'B004I8VJ1Y'
 'B07C366Z4V'
 'B07Q41365C'
@@ -43,7 +43,7 @@ by finding its product code (i.e. ASIN) from HTML link.
 
 scrape_reviews(product_code,page_num)
 
-#example
+# example
 scrape_reviews('B004I8VJ1Y',10)
 ````
 
@@ -51,14 +51,14 @@ scrape_reviews('B004I8VJ1Y',10)
 ```
 multiple_scrape(product_code,page_rage)
 
-#example
+# example
 multiple_scrape('B004I8VJ1Y',1:4)
 ```
 
 ```
 GetSentiment(product_code,page_rage)
 
-#example
+# example
 GetSentiment('B004I8VJ1Y',1:4)
 
 ``` 
