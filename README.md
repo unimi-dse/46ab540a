@@ -42,8 +42,8 @@ by finding its product code (i.e. [ASIN](https://www.datafeedwatch.com/blog/amaz
 scrape_reviews(product_code,page_num)
 ```
 
-	 E.g.
-  	``scrape_reviews('B004I8VJ1Y',10)``
+ E.g.
+  ``scrape_reviews('B004I8VJ1Y',10)``
 
 
 
