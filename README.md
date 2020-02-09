@@ -30,7 +30,7 @@ Some Amazon products codes that can be used for the following functions
 ``'B07Q41365C'``
 
 
-You also can apply this package for any products from [Amazon UK](https://www.amazon.co.uk)
+You also can apply this package for any products from [Amazon UK](https://www.amazon.co.uk"Go to Amazon UK :D")
 by finding its product code (i.e. [ASIN](https://www.datafeedwatch.com/blog/amazon-asin-number-what-is-it-and-how-do-you-get-it "See how to find ASIN of Amazon product")) from HTML link.
 
 
