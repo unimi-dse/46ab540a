@@ -1,3 +1,16 @@
+#' Scrape reviews from multiple pages
+#' Unlist the reviews and merge them
+#' Count sentimental words including negative words and positive words and sort them following their frequencies
+#' Plot a column graph, shows top words which appear frequently
+#'
+#' @param product_code A string indicates unique code of product (aka ASIN) from Amazon
+#' @param page_range a rage of number indicating starting page and ending page to extract reviews
+#'
+#' @return Null
+#'
+#' @example plotbing('B004I8VJ1Y',1:4)
+#'
+#' @export
 plotbing <- function (product_code,page_range) {
   output_list <- multiple_scrape(product_code,page_range)
   output_text <- paste( unlist(output_list), collapse='')
@@ -17,4 +30,4 @@ plotbing <- function (product_code,page_range) {
     ggplot2::coord_flip()
 }
 
-#plotbing('B004I8VJ1Y',1:4)
+

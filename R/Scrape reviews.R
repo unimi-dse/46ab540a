@@ -1,9 +1,22 @@
+#' Create URL of Amazon product's reviews page
+#' Extract text from the given URL
+#'
+#' @param product_code A string indicates unique code of product (aka ASIN) from Amazon
+#' @param page_num numeric number indicates a certain page's numer
+#'
+#' @return a list of reviews from indicated page
+#'
+#' @example scrape_reviews('B004I8VJ1Y',10)
+#'
+#' @export
+
 scrape_reviews <- function(product_code,page_num){
   url <- paste0("https://www.amazon.co.uk/product-reviews/",product_code,"/?pageNumber=",page_num)
   reviews_text <- xml2::read_html(url) %>%
     rvest::html_nodes("[class='a-size-base review-text review-text-content']") %>%
     rvest::html_text()
-  return(reviews_text)                     # extract text
+  return(reviews_text)
 }
 
-#scrape_reviews('B004I8VJ1Y',10) scrape reviews of product B004I8VJ1Y in page 10
+
+

@@ -1,6 +1,6 @@
 Package: IfamazonratingsReliable
 Type: Package
-Title: Detecting the fake Amazon rating based on buyer's reviews
+Title: Examinating if Amazon's product ratings are reliable based on text analysing buyer's reviews
 Version: 0.1.0
 Authors@R: person("QA", "Nguyen", email = "anhmilan@gmail.com",
                   role = c("aut", "cre"))
@@ -13,4 +13,4 @@ Encoding: UTF-8
 LazyData: true
 Depends: R (>= 3.1.0), dplyr
 Imports: rvest, tidytext, tidyverse,gsubfn,magrittr
-
+RoxygenNote: 7.0.2
