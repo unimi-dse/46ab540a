@@ -2,15 +2,12 @@
 % Please edit documentation in R/plotbing.R
 \name{plotbing}
 \alias{plotbing}
-\title{Scrape reviews from multiple pages
-Unlist the reviews and merge them
-Count sentimental words including negative words and positive words and sort them following their frequencies
-Plot a column graph, shows top words which appear frequently}
+\title{Sentimental Words Plotting}
 \usage{
 plotbing(product_code, page_range)
 }
 \arguments{
-\item{product_code}{A string indicates unique code of product (aka ASIN) from Amazon}
+\item{product_code}{A string indicates a unique code of product (aka ASIN) from Amazon}
 
 \item{page_range}{a rage of number indicating starting page and ending page to extract reviews}
 }
@@ -18,8 +15,9 @@ plotbing(product_code, page_range)
 Null
 }
 \description{
-Scrape reviews from multiple pages
-Unlist the reviews and merge them
-Count sentimental words including negative words and positive words and sort them following their frequencies
-Plot a column graph, shows top words which appear frequently
+Plotting a column graph, shows words whose highest frequencies
+}
+\examples{
+plotbing('B004I8VJ1Y',1:4)
+
 }

@@ -1,12 +1,13 @@
-#' Create URL of Amazon product's reviews page
-#' Extract text from the given URL
+#' Reviews Scraping
 #'
-#' @param product_code A string indicates unique code of product (aka ASIN) from Amazon
+#' Scrape product's reviews from a single review page
+#'
+#' @param product_code A string indicates a unique code of product (aka ASIN) from Amazon
 #' @param page_num numeric number indicates a certain page's numer
 #'
 #' @return a list of reviews from indicated page
 #'
-#' @example scrape_reviews('B004I8VJ1Y',10)
+#' @examples  scrape_reviews('B004I8VJ1Y',10)
 #'
 #' @export
 

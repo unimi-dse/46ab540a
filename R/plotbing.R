@@ -1,14 +1,13 @@
-#' Scrape reviews from multiple pages
-#' Unlist the reviews and merge them
-#' Count sentimental words including negative words and positive words and sort them following their frequencies
-#' Plot a column graph, shows top words which appear frequently
+#' Sentimental Words Plotting
 #'
-#' @param product_code A string indicates unique code of product (aka ASIN) from Amazon
+#' Plotting a column graph, shows words whose highest frequencies
+#'
+#' @param product_code A string indicates a unique code of product (aka ASIN) from Amazon
 #' @param page_range a rage of number indicating starting page and ending page to extract reviews
 #'
 #' @return Null
 #'
-#' @example plotbing('B004I8VJ1Y',1:4)
+#' @examples plotbing('B004I8VJ1Y',1:4)
 #'
 #' @export
 plotbing <- function (product_code,page_range) {

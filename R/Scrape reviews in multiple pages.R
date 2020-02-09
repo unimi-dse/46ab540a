@@ -1,16 +1,13 @@
-#' Create a table that scrambles page numbers and randomise page to avoid being block API by Amazon
-#' Progressing message
-#' Take another one second break after every three scrapes
+#' Multiple Reviews Scraping
 #'
-#' Scrape reviews from single page and loop for other page
+#' Scrape reviews from a single page and loop for other page by randomising orders of pages to avoid being block API
 #'
-#'
-#' @param product_code A string indicates unique code of product (aka ASIN) from Amazon
+#' @param product_code A string indicates a unique code of product (aka ASIN) from Amazon
 #' @param page_range a rage of number indicating starting page and ending page to extract reviews
 #'
 #' @return a list of reviews from multiple pages
 #'
-#' @example multiple_scrape('B004I8VJ1Y',1:4)
+#' @examples multiple_scrape('B004I8VJ1Y',1:4)
 #'
 #' @export
 

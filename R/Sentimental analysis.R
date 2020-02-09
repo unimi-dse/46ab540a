@@ -1,14 +1,13 @@
-#' Sentimental words analysing
+#' Sentimental Words Analysing
 #'
-#' If the number of negative words is greater than 40%
-#'of total sentimental words then showing message 'got BAD reviews'  and vice sera.
+#' If the number of negative words from reviews is greater than 40 percent of total sentimental words then that product is considered as 'got BAD reviews'and vice sera
 #'
-#' @param product_code A string indicates unique code of product (aka ASIN) from Amazon
+#' @param product_code A string indicates a unique code of product (aka ASIN) from Amazon
 #' @param page_range numeric number indicates a certain page's numer
 #'
 #' @return Number of negative words, positive word and general sentiment
 #'
-#' @example GetSentiment('B004I8VJ1Y',1:2)
+#' @examples GetSentiment('B004I8VJ1Y',1:2)
 #'
 #' @export
 

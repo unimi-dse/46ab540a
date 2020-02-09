@@ -2,14 +2,12 @@
 % Please edit documentation in R/Scrape reviews in multiple pages.R
 \name{multiple_scrape}
 \alias{multiple_scrape}
-\title{Create a table that scrambles page numbers and randomise page to avoid being block API by Amazon
-Progressing message
-Take another one second break after every three scrapes}
+\title{Multiple Reviews Scraping}
 \usage{
 multiple_scrape(product_code, page_range)
 }
 \arguments{
-\item{product_code}{A string indicates unique code of product (aka ASIN) from Amazon}
+\item{product_code}{A string indicates a unique code of product (aka ASIN) from Amazon}
 
 \item{page_range}{a rage of number indicating starting page and ending page to extract reviews}
 }
@@ -17,5 +15,9 @@ multiple_scrape(product_code, page_range)
 a list of reviews from multiple pages
 }
 \description{
-Scrape reviews from single page and loop for other page
+Scrape reviews from a single page and loop for other page by randomising orders of pages to avoid being block API
+}
+\examples{
+multiple_scrape('B004I8VJ1Y',1:4)
+
 }

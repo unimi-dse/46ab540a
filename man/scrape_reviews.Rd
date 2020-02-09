@@ -2,13 +2,12 @@
 % Please edit documentation in R/Scrape reviews.R
 \name{scrape_reviews}
 \alias{scrape_reviews}
-\title{Create URL of Amazon product's reviews page
-Extract text from the given URL}
+\title{Reviews Scraping}
 \usage{
 scrape_reviews(product_code, page_num)
 }
 \arguments{
-\item{product_code}{A string indicates unique code of product (aka ASIN) from Amazon}
+\item{product_code}{A string indicates a unique code of product (aka ASIN) from Amazon}
 
 \item{page_num}{numeric number indicates a certain page's numer}
 }
@@ -16,6 +15,9 @@ scrape_reviews(product_code, page_num)
 a list of reviews from indicated page
 }
 \description{
-Create URL of Amazon product's reviews page
-Extract text from the given URL
+Scrape product's reviews from a single review page
+}
+\examples{
+ scrape_reviews('B004I8VJ1Y',10)
+
 }
