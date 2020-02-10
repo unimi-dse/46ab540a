@@ -37,7 +37,7 @@ by finding its product code (i.e. [ASIN](https://www.datafeedwatch.com/blog/amaz
 
 ## Function
 
-#### Function to extract data from one page
+#### Function to extract reviews from one page
 ```
 scrape_reviews(product_code,page_num)
 ```
@@ -47,7 +47,7 @@ scrape_reviews(product_code,page_num)
 
 
 
-#### Function to extract data from multiple pages
+#### Function to extract reviews from multiple pages
   ```
   multiple_scrape(product_code,page_rage)
   ```
