@@ -39,38 +39,38 @@ by finding its product code (i.e. [ASIN](https://www.datafeedwatch.com/blog/amaz
 
 #### Function to extract reviews from one page
 ```
-scrape_reviews(product_code,page_num)
+scrape_reviews(url,page_num)
 ```
 
  E.g.
-  ``scrape_reviews('B004I8VJ1Y',10)``
+  ``scrape_reviews('https://www.amazon.co.uk/find-PHRL3236-Mens-Jumpers-Off-White/dp/B004I8VJ1Y?pf_rd_p=190f0313-4dcb-4239-b2ce-39f9d6bd3b5c&pd_rd_wg=NzF31&pf_rd_r=WJ0HCRPD99CTHV8XN0K0&ref_=pd_gw_unk&pd_rd_w=yoPcr&pd_rd_r=2a39592b-aee9-47b5-a65e-862257e0f4df&th=1',10)``
 
 
 
 #### Function to extract reviews from multiple pages
   ```
-  multiple_scrape(product_code,page_rage)
+  multiple_scrape(url,page_rage)
   ```
 
 E.g.
-``multiple_scrape('B004I8VJ1Y',1:4)``
+``multiple_scrape('https://www.amazon.co.uk/find-PHRL3236-Mens-Jumpers-Off-White/dp/B004I8VJ1Y?pf_rd_p=190f0313-4dcb-4239-b2ce-39f9d6bd3b5c&pd_rd_wg=NzF31&pf_rd_r=WJ0HCRPD99CTHV8XN0K0&ref_=pd_gw_unk&pd_rd_w=yoPcr&pd_rd_r=2a39592b-aee9-47b5-a65e-862257e0f4df&th=1',1:4)``
 
 
 #### Function to check if the product got positive reviews in general
 ``` 
-GetSentiment(product_code,page_rage)
+GetSentiment(url,page_rage)
 ```
 
 E.g.
-``GetSentiment('B004I8VJ1Y',1:4)``
+``GetSentiment('https://www.amazon.co.uk/find-PHRL3236-Mens-Jumpers-Off-White/dp/B004I8VJ1Y?pf_rd_p=190f0313-4dcb-4239-b2ce-39f9d6bd3b5c&pd_rd_wg=NzF31&pf_rd_r=WJ0HCRPD99CTHV8XN0K0&ref_=pd_gw_unk&pd_rd_w=yoPcr&pd_rd_r=2a39592b-aee9-47b5-a65e-862257e0f4df&th=1',1:2)``
 
 #### Function to visualyze top negative and positive words
 ``` 
-plotbing(product_code,page_rage)
+plotbing(url,page_rage)
 ```
 
 E.g.
-``plotbing('B004I8VJ1Y',1:10)``
+``plotbing('https://www.amazon.co.uk/find-PHRL3236-Mens-Jumpers-Off-White/dp/B004I8VJ1Y?pf_rd_p=190f0313-4dcb-4239-b2ce-39f9d6bd3b5c&pd_rd_wg=NzF31&pf_rd_r=WJ0HCRPD99CTHV8XN0K0&ref_=pd_gw_unk&pd_rd_w=yoPcr&pd_rd_r=2a39592b-aee9-47b5-a65e-862257e0f4df&th=1',1:4)``
 ## License
 ``GPL-3``
 ## Language
