@@ -4,10 +4,10 @@
 \alias{scrape_reviews}
 \title{Reviews Scraping}
 \usage{
-scrape_reviews(product_code, page_num)
+scrape_reviews(url, page_num)
 }
 \arguments{
-\item{product_code}{A string indicates a unique code of product (aka ASIN) from Amazon}
+\item{url}{URL of product}
 
 \item{page_num}{numeric number indicates a certain page's numer}
 }
@@ -18,6 +18,6 @@ a list of reviews from indicated page
 Scrape product's reviews from a single review page
 }
 \examples{
- scrape_reviews('B004I8VJ1Y',10)
+scrape_reviews('https://www.amazon.co.uk/find-PHRL3236-Mens-Jumpers-Off-White/dp/B004I8VJ1Y?pf_rd_p=190f0313-4dcb-4239-b2ce-39f9d6bd3b5c&pd_rd_wg=NzF31&pf_rd_r=WJ0HCRPD99CTHV8XN0K0&ref_=pd_gw_unk&pd_rd_w=yoPcr&pd_rd_r=2a39592b-aee9-47b5-a65e-862257e0f4df&th=1',10)
 
 }

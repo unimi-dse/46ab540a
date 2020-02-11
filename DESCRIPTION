@@ -11,6 +11,6 @@ Description: This packge is used to check if average Amazon rating of each produ
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-Depends: R (>= 3.1.0), dplyr
+Depends: R (>= 3.1.0),dplyr
 Imports: rvest, tidytext, tidyverse,gsubfn,magrittr
 RoxygenNote: 7.0.2
