@@ -12,7 +12,6 @@
 #' @export
 
 getasin <- function(url){
-  url <-
   tail_url <- strsplit(url, "/")[[1]][6]
   asin <- substring(tail_url,1,10)
   return(asin)

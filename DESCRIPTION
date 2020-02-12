@@ -1,13 +1,13 @@
 Package: IfamazonratingsReliable
 Type: Package
-Title: Examinating if Amazon's product ratings are reliable based on text analysing buyer's reviews
+Title: Examinating if Amazon's product ratings are reliable based on reviews analysing
 Version: 0.1.0
 Authors@R: person("QA", "Nguyen", email = "anhmilan@gmail.com",
                   role = c("aut", "cre"))
 Maintainer: Nguyen QA <anhmilan@gmail.com>
 Description: This packge is used to check if average Amazon rating of each product is reliable. 
     Reviews from buyers will be sentimental analysed using library "bing" by Bing Liu. 
-    If the number of negative words is greater than 40% of total sentimental words, the product got a BAD reviews and vice sera.
+    If the number of negative words is greater than 40% of total sentimental words, the product is considered as having got a BAD reviews and vice versa.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
