@@ -1,10 +1,10 @@
-``Shiny in progress..``
+``work in progress..``
 `` ``
 `` comeback later plz ``:woman_technologist::woman_technologist::woman_technologist:
 
 # Check if Amazon rating is reliable
 
-IfamazonratingsReliable is a package used for sentimentally analyzing reviews of [Amazon UK](https://www.amazon.co.uk "Go to Amazon UK now") products. Certain words from buyer's reviews will be assigned to either positive value or negative value using the Bing lexicon. If the number of negative words accounts for more than 40% of the total words, the product is considered as having got BAD reviews.
+IfamazonratingsReliable is a package used for sentimentally analyzing reviews of [Amazon UK](https://www.amazon.co.uk "Go to Amazon UK now") products. Certain words from buyer's reviews will be assigned to either positive value or negative value using Bing lexicon. If the number of negative words accounts for more than 40% of the total words, the product is considered as having got BAD reviews.
 
 
 ## Installation
