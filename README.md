@@ -1,7 +1,3 @@
-``work in progress..``
-`` ``
-`` comeback later plz ``:woman_technologist::woman_technologist::woman_technologist:
-
 # Check if Amazon rating is reliable
 
 IfamazonratingsReliable is a package used for sentimentally analyzing reviews of [Amazon UK](https://www.amazon.co.uk "Go to Amazon UK now") products. Certain words from buyer's reviews will be assigned to either positive value or negative value using Bing lexicon. If the number of negative words accounts for more than 40% of the total words, the product is considered as having got BAD reviews.
@@ -65,10 +61,10 @@ plotbing(url,page_rage)
 
 ## License
 ``GPL-3``
+
 ## Author
-:octocat: jyanqa
+:octocat: ``jyanqa``
 
-<i class="fab fa-stack-overflow"></i> 
-
+ **_Note:_**  `` Only for Mac OS users`` This package uses X11 library (including tcltk), thus XQuartz is required to be installed since it is no longer part of OS X. Read on [R CRAN](https://cran.r-project.org/bin/macosx/ "R for Mac OS X")  more details.
 
 
