@@ -65,6 +65,5 @@ plotbing(url,page_rage)
 ## Author
 :octocat: ``jyanqa``
 
- **_Note:_**  `` Only for Mac OS users`` This package uses X11 library (including tcltk), thus XQuartz is required to be installed since it is no longer part of OS X. Read on [R CRAN](https://cran.r-project.org/bin/macosx/ "R for Mac OS X")  more details.
-
+ **_Note:_**  `` Only for Mac OS users`` This package uses X11 library (including tcltk), thus [XQuartz](https://www.xquartz.org "Download") is required to be installed since it is no longer part of OS X. Read on [R CRAN](https://cran.r-project.org/bin/macosx/ "R for Mac OS X")  more details.
 
