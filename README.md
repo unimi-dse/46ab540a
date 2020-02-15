@@ -65,7 +65,10 @@ plotbing(url,page_rage)
 
 ## License
 ``GPL-3``
-## Language
-![](path/to/smallorb.png)
+## Author
+:octocat: jyanqa
 
-:sweat_smile:
+<i class="fab fa-stack-overflow"></i> 
+
+
+
