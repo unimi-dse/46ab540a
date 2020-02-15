@@ -5,7 +5,7 @@
 #' @param url URL of product
 #' @param page_range a rage of number indicating starting page and ending page to extract reviews
 #'
-#' @return Null
+#' @return Plot
 #'
 #' @examples plotbing('https://www.amazon.co.uk/find-PHRL3236-Mens-Jumpers-Off-White/dp/B004I8VJ1Y?pf_rd_p=190f0313-4dcb-4239-b2ce-39f9d6bd3b5c&pd_rd_wg=NzF31&pf_rd_r=WJ0HCRPD99CTHV8XN0K0&ref_=pd_gw_unk&pd_rd_w=yoPcr&pd_rd_r=2a39592b-aee9-47b5-a65e-862257e0f4df&th=1',1:4)
 #'

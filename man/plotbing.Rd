@@ -12,7 +12,7 @@ plotbing(url, page_range)
 \item{page_range}{a rage of number indicating starting page and ending page to extract reviews}
 }
 \value{
-Null
+Plot
 }
 \description{
 Plotting a column graph, shows words whose highest frequencies

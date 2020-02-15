@@ -7,12 +7,10 @@
 getasin(url)
 }
 \arguments{
-\item{product_code}{A string indicates a unique code of product (aka ASIN) from Amazon}
-
-\item{page_range}{numeric number indicates a certain page's numer}
+\item{product_code}{A string indicates URL of product}
 }
 \value{
-Number of negative words, positive word and general sentiment
+10 letters code of product
 }
 \description{
 Get Amazon product's code from URL
