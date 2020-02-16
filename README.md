@@ -24,7 +24,7 @@ require(IfamazonratingsReliable)
 scrape_reviews(url,page_num)
 ```
  <details>
-  <summary>Click to coppy example </summary>
+  <summary>Click to copy example </summary>
   scrape_reviews('https://www.amazon.co.uk/NatraCure-5-Toe-Moisturising-Socks-Cracked/dp/B00O81S77A/ref=pd_rhf_cr_p_img_4?_encoding=UTF8&psc=1&refRID=VJCM7BVD23A999WADERA',2)
 </details> 
 
@@ -36,7 +36,7 @@ scrape_reviews(url,page_num)
   multiple_scrape(url,page_rage)
   ```
    <details>
-  <summary>Click to coppy example </summary>
+  <summary>Click to copy example </summary>
   multiple_scrape('https://www.amazon.co.uk/find-PHRL3236-Mens-Jumpers-Off-White/dp/B004I8VJ1Y?pf_rd_p=190f0313-4dcb-4239-b2ce-39f9d6bd3b5c&pd_rd_wg=NzF31&pf_rd_r=WJ0HCRPD99CTHV8XN0K0&ref_=pd_gw_unk&pd_rd_w=yoPcr&pd_rd_r=2a39592b-aee9-47b5-a65e-862257e0f4df&th=1',1:4)
 </details> 
 
@@ -46,7 +46,7 @@ scrape_reviews(url,page_num)
 GetSentiment(url,page_rage)
 ```
  <details>
-  <summary>Click to coppy example </summary>
+  <summary>Click to copy example </summary>
  GetSentiment('https://www.amazon.co.uk/find-PHRL3236-Mens-Jumpers-Off-White/dp/B004I8VJ1Y?pf_rd_p=190f0313-4dcb-4239-b2ce-39f9d6bd3b5c&pd_rd_wg=NzF31&pf_rd_r=WJ0HCRPD99CTHV8XN0K0&ref_=pd_gw_unk&pd_rd_w=yoPcr&pd_rd_r=2a39592b-aee9-47b5-a65e-862257e0f4df&th=1',1:2)
 </details> 
 
@@ -55,7 +55,7 @@ GetSentiment(url,page_rage)
 plotbing(url,page_rage)
 ```
  <details>
-  <summary>Click to coppy example </summary>
+  <summary>Click to copy example </summary>
   plotbing('https://www.amazon.co.uk/find-PHRL3236-Mens-Jumpers-Off-White/dp/B004I8VJ1Y?pf_rd_p=190f0313-4dcb-4239-b2ce-39f9d6bd3b5c&pd_rd_wg=NzF31&pf_rd_r=WJ0HCRPD99CTHV8XN0K0&ref_=pd_gw_unk&pd_rd_w=yoPcr&pd_rd_r=2a39592b-aee9-47b5-a65e-862257e0f4df&th=1',1:4)
 </details> 
 
