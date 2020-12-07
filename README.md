@@ -63,7 +63,7 @@ plotbing(url,page_rage)
 ``GPL-3``
 
 ## Author
-``Nguyen Quynh Anh``
+``Nguyen QA``
 
 :octocat: 
 [jyanqa](https://github.com/jyanqa "Follow me on Github")
